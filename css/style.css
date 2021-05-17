@@ -114,7 +114,8 @@ html {
 }
 
 .hero__link {
-    width: 117px;
+    /* width: 117px; */
+    display: inline-block;
     text-decoration: none;
     font-style: normal;
     font-weight: bold;
@@ -177,6 +178,10 @@ html {
 .advaced {
     background-color: #F2F2F2;;
 }
+.advaced-container{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .advenced__title {
     width: 540px;
@@ -209,6 +214,8 @@ html {
 .section__list {
     display: flex;
     list-style: none;
+    align-items: flex-start;
+    margin: 0;
 }
 
 .cards {
@@ -267,3 +274,124 @@ html {
 .section__item__third {
     margin-top: 188px;
 }
+
+.boost {
+
+    background: #3A3054;
+    /* padding: 57px 450px; */
+    text-align: center;
+    /* margin-top: 120px; */
+}
+
+.boost-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 57px;
+    padding-bottom: 57px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.boost-desc{
+    margin-right: auto;
+    margin-left: auto;
+    width: 540px;
+}
+
+.link__title {
+    width: 540px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.boost-link{
+    display: inline-block;
+    background: #2BD0D0;
+    border-radius: 28px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 14px 40px;
+    transition: background-color 0.3s ease;
+}
+
+.boost-link:hover {
+    background: #9AE3E3;
+    border-radius: 28px;
+}
+
+.footer__site {
+    background-color: #232127;
+}
+
+.footer-site {
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.footer__grow {
+    display: flex;
+    padding-top: 70px;
+}
+
+.logo-site__white {
+    margin-right: 261px;
+}
+
+.footer__list {
+    margin-right: 90px;
+}
+
+
+.title__footer {
+    width: 71px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    color: #FFFFFF;
+}
+
+.footer__item {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer__link {
+    width: 80px;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.234375px;
+    color: #BFBFBF;
+    white-space: nowrap;
+}
+
+.footer__link:hover{
+    letter-spacing: -0.234375px;
+    color: #2BD0D0;
+}
+
+.list__icons {
+    display: flex;
+    list-style: none;
+}
+
+.icon__link {
+    margin-right: 24px;
+}
+
